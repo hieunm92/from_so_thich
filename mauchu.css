@@ -1,0 +1,18 @@
+.mauxanh{
+    color: blue;
+}
+.maudo{
+    color: red;
+}
+.mautrang{
+    color: aliceblue;
+}
+.main {
+    width: 480px;
+    height: 230px;
+    margin: 0 auto;
+    border: 10px solid paleturquoise;
+}
+.border{
+    border: 1px dotted;
+}

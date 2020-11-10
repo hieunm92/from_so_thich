@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <style>
+        h2{
+            margin:0 auto;
+        }
+
+        .main {
+            width: 480px;
+            height: 270px;
+            margin: 0 auto;
+            border: 10px solid paleturquoise;
+
+        }
+
+        .header {
+            background-color: red;
+            text-align: center;
+            color: white;
+            margin: 5px;
+            padding: 3px;
+        }
+        .container{
+            margin-top: 0px;
+        }
+
+        .left {
+            text-align: right;
+            width: 100px;
+            float: left;
+            color: #0000fe;
+
+        }
+
+        .right {
+            margin-left: 5px;
+            margin-top: 10px;
+            float: left;
+
+        }
+
+        .checklist {
+            margin-top: 19px;
+            height: 100px;
+            color: orange;
+        }
+
+        .column1 {
+            float: left;
+        }
+
+        .column2 {
+            float: left;
+            margin: 0px 10px;
+        }
+
+        .column3 {
+            float: left;
+        }
+        .footer{
+            width: 100%;
+            float: left;
+            padding-left: 110px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="main">
+    <form>
+        <div class="header">
+            <h2>SỞ THÍCH CỦA BẠN</h2>
+        </div>
+        <div class="container">
+            <div class="left">
+                <p>Họ và tên</p>
+                <p>Email</p>
+                <p>Sở thích</p>
+            </div>
+            <div class="right">
+                <input type="text" size="35"> <br>
+                <input style="margin-top:14px" type="text">
+                <div class="checklist">
+                    <div class="column1">
+                        <input type="checkbox" name="sport"> Thể thao <br>
+                        <input type="checkbox" name="websirfing"> Lướt web <br>
+                        <input type="checkbox" name="traveling"> Du lịch
+                    </div>
+                    <div class="column2">
+                        <input type="checkbox" name="music"> Âm nhạc <br>
+                        <input type="checkbox" name="playgame"> Chơi game
+                    </div>
+                    <div class="column3">
+                        <input type="checkbox" name="reading"> Đọc sách <br>
+                        <input type="checkbox" name="film"> Điện ảnh
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="footer">
+            <input type="submit" value="Gửi thông tin">
+            <input type="reset" value="Nhập lại">
+
+        </div>
+    </form>
+</div>
+
+
+</form>
+</body>
+</html>
